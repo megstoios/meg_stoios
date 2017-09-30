@@ -37,6 +37,10 @@ a {
   color: #296de1;
 
 }
+.red {
+  color: #ad0f0f;
+}
+
 .draggable {
   cursor: move;
 }
@@ -71,4 +75,53 @@ a {
   top: -44.5em;
   opacity: 0.9;
   z-index: 0;
+}
+.aone {
+  width: 65%;
+  position: relative;
+  top: -4.5em;
+  left: 10%;
+  opacity: 0.9;
+}
+.atwo {
+  width: 100%;
+  position: relative;
+}
+.athree {
+  width: 36%;
+  left: 34%;
+  top: 10vh;
+  position: relative;
+  opacity: 0.9;
+}
+.afour {
+  width: 100%;
+  top: 20vh;
+  position: relative;
+}
+.bone {
+  width: 100%;
+  top: -12em;
+  position: relative;
+}
+.btwo {
+  width: 70%;
+  position: relative;
+  left: 15%;
+  opacity: 0.9;
+}
+.cone {
+  width: 100%;
+  top: -12em;
+  position: relative;
+}
+.done {
+  width: 100%;
+  top: -12em;
+  position: relative;
+}
+.dtwo {
+  width: 100%;
+  top: -12em;
+  position: relative;
 }
