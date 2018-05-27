@@ -358,3 +358,10 @@ img.hover-shadow {
 .installpics img {
   padding: 0.5em;
 }
+
+@media only screen and (max-width: 768px) {
+  h1 {font-size: 1em;}
+  #navicon {font-size: 2em;}
+  .mySlides img {height: 100%;}
+  #navbar a {font-size: 0.5em;}
+}
