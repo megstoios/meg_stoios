@@ -51,7 +51,7 @@ span {
   position: relative;
   background-color: #000000;
   display: none;
-  width: 35%;
+  width: 37%;
   opacity: 0.9;
   margin: 0;
   float: left;
@@ -363,5 +363,11 @@ img.hover-shadow {
   h1 {font-size: 1em;}
   #navicon {font-size: 2em;}
   .mySlides img {height: 100%;}
-  #navbar a {font-size: 0.5em;}
+  #navbar a {font-size: 0.5em;
+            letter-spacing: 0;}
+  #logo {width: 50%;}
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar a {padding: 0;}
 }
