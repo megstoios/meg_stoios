@@ -362,10 +362,11 @@ img.hover-shadow {
 @media only screen and (max-width: 768px) {
   h1 {font-size: 1em;}
   #navicon {font-size: 2em;}
-  .mySlides img {height: 100%;}
+  .mySlides img {height: 100vh;}
   #navbar a {font-size: 0.5em;
             letter-spacing: 0;}
   #logo {width: 50%;}
+  .installpics img {width:50%;}
 }
 
 @media only screen and (max-width: 600px) {
