@@ -366,7 +366,7 @@ img.hover-shadow {
   #navbar a {font-size: 0.5em;
             letter-spacing: 0;}
   #logo {width: 50%;}
-  .installpics img {width:50%;}
+  .installpics img {width:75%;}
 }
 
 @media only screen and (max-width: 600px) {
