@@ -8,6 +8,18 @@ body {
   background-color: #f9eeec;
 }
 
+.flex {
+  display: flex;
+}
+
+.flexcentre {
+  justify-content: center;
+}
+
+.columnphoto .smallpic {
+  padding-top: 3em;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -99,7 +111,7 @@ li {
   padding: 0.5em;
   letter-spacing: 0.2em;
   float: right;
-  width: 65%;
+  width: 63%;
   z-index: 1;
 }
 
@@ -197,10 +209,18 @@ li {
   display: none;
 }
 
+#photocontent {
+  background-color: #f9eeec;
+}
+
 ////////////
 
 .row > .column {
   padding: 0 8px;
+}
+
+.row > .columnphoto {
+  padding: 30px 30px;
 }
 
 .row:after {
@@ -217,6 +237,13 @@ li {
   height: 33vh;
 }
 
+.columnphoto {
+  float: left;
+  width: 23%;
+  padding: 14px;
+  height: 40vh;
+}
+
 /* The Modal (background) */
 .modal {
   display: none;
@@ -229,6 +256,19 @@ li {
   height: 100%;
   overflow: auto;
   background-color: black;
+}
+
+.modalphoto {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #f9eeec;
 }
 
 /* Modal Content */
@@ -262,6 +302,10 @@ li {
   display: none;
 }
 
+.myPhoto {
+  display: none;
+}
+
 .cursor {
   cursor: pointer
 }
@@ -273,6 +317,13 @@ li {
 .caption-container {
   text-align: center;
   background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.captionphoto-container {
+  text-align: center;
+  background-color: #f9eeec;
   padding: 2px 16px;
   color: white;
 }
