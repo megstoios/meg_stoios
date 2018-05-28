@@ -418,8 +418,12 @@ img.hover-shadow {
             letter-spacing: 0;}
   #logo {width: 50%;}
   .installpics img {width:75%;}
+  .column {width: 100%; height: 50vh;}
+  .columnphoto {width: 100%; height: 100vh;}
 }
 
 @media only screen and (max-width: 600px) {
   #navbar a {padding: 0;}
+  .column {width: 100%; height: 50vh;}
+  .columnphoto {width: 100%; height: 80vh;}
 }
