@@ -16,7 +16,7 @@ body {
   justify-content: center;
 }
 
-.columnphoto .smallpic {
+.smallpic {
   padding-top: 3em;
 }
 
@@ -60,7 +60,7 @@ span {
 }
 
 #navbar {
-  position: relative;
+  position: fixed;
   background-color: #000000;
   display: none;
   width: 37%;
@@ -424,8 +424,9 @@ img.hover-shadow {
 
 @media only screen and (max-width: 600px) {
   #navbar a {padding: 0;}
-  .column {width: 100%; height: 50vh;}
-  .columnphoto {width: 100%; height: 80vh;}
+  .column {width: 100%; height: 50vh; padding: 4em;}
+  .columnphoto {width: 75%; height: 80vh;}
+  
 }
 
 .sticky {
