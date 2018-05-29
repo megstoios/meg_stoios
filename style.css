@@ -427,3 +427,7 @@ img.hover-shadow {
   .column {width: 100%; height: 50vh;}
   .columnphoto {width: 100%; height: 80vh;}
 }
+
+.sticky {
+  position: fixed;
+}

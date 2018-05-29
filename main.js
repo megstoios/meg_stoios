@@ -34,8 +34,8 @@ $(document).ready(function() {
 
   navbar.onmouseleave = function(){
     $("#navbar").animate({
-      width: "toggle"
-    });
+      width: "hide"
+    }, 1000);
   }
 
   installation.onclick = function(){
@@ -44,6 +44,9 @@ $(document).ready(function() {
     watercontent.style.display = "none";
     paintcontent.style.display = "none";
     photocontent.style.display = "none";
+    $("#navbar").animate({
+      width: "hide"
+    }, 1000);
   }
 
   watercolour.onclick = function(){
@@ -52,6 +55,9 @@ $(document).ready(function() {
     watercontent.style.display = "block";
     paintcontent.style.display = "none";
     photocontent.style.display = "none";
+    $("#navbar").animate({
+      width: "hide"
+    }, 1000);
   }
 
   painting.onclick = function(){
@@ -60,6 +66,9 @@ $(document).ready(function() {
     watercontent.style.display = "none";
     paintcontent.style.display = "block";
     photocontent.style.display = "none";
+    $("#navbar").animate({
+      width: "hide"
+    }, 1000);
   }
 
   photography.onclick = function(){
@@ -68,6 +77,9 @@ $(document).ready(function() {
     watercontent.style.display = "none";
     paintcontent.style.display = "none";
     photocontent.style.display = "block";
+    $("#navbar").animate({
+      width: "hide"
+    }, 1000);
   }
 
   $('#roofs').click(showMoreRoofs);
@@ -234,5 +246,23 @@ $(document).ready(function() {
     $('#showLess').hide();
     $('#showGrad').slideUp(1000);
   }
+
+  // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("header");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
 
 })
