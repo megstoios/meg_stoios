@@ -47,6 +47,8 @@ $(document).ready(function() {
     $("#navbar").animate({
       width: "hide"
     }, 1000);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
 
   watercolour.onclick = function(){
@@ -58,6 +60,8 @@ $(document).ready(function() {
     $("#navbar").animate({
       width: "hide"
     }, 1000);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
 
   painting.onclick = function(){
@@ -69,6 +73,8 @@ $(document).ready(function() {
     $("#navbar").animate({
       width: "hide"
     }, 1000);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
 
   photography.onclick = function(){
@@ -80,6 +86,8 @@ $(document).ready(function() {
     $("#navbar").animate({
       width: "hide"
     }, 1000);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
 
   $('#roofs').click(showMoreRoofs);
