@@ -30,6 +30,11 @@ header {
   z-index: 1;
 }
 
+.headerdecoy {
+  height: 10vh;
+  width: 100%
+}
+
 h1 {
   font-size: 2em;
   color: #296de1;
